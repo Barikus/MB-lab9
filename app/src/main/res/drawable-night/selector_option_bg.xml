@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Выбрано (темная тема) -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#1E3A5F"/> <!-- Темно-синий фон -->
+            <stroke android:width="2dp" android:color="#64B5F6"/> <!-- Светло-синяя рамка -->
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+    <!-- Обычное состояние (темная тема) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#2C2C2C"/> <!-- Темно-серый -->
+            <stroke android:width="1dp" android:color="#555555"/> <!-- Серая рамка -->
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+</selector>
